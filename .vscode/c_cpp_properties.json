@@ -33,7 +33,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -44,7 +44,10 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23"
         }
     ]
 }
